@@ -1,0 +1,608 @@
+@font-face {
+  font-family: 'montserratbold';
+  src: url('static/fonts/montserrat/font_bold.woff2') format('woff2'),
+       url('static/fonts/montserrat/font_bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratmedium';
+  src: url('static/fonts/montserrat/font_medium.woff2') format('woff2'),
+       url('static/fonts/montserrat/font_medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url('static/fonts/montserrat/font_regular.woff2') format('woff2'),
+       url('static/fonts/montserrat/font_regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('static/fonts/roboto/font_bold.woff2') format('woff2'),
+       url('static/fonts/roboto/font_bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url('static/fonts/roboto/font_medium.woff2') format('woff2'),
+       url('static/fonts/roboto/font_medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('static/fonts/roboto/font_regular.woff2') format('woff2'),
+       url('static/fonts/roboto/font_regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsbold';
+  src: url('static/fonts/poppins/font_bold.woff2') format('woff2'),
+       url('static/fonts/poppins/font_bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsmedium';
+  src: url('static/fonts/poppins/font_medium.woff2') format('woff2'),
+       url('static/fonts/poppins/font_medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('static/fonts/poppins/font_regular.woff2') format('woff2'),
+       url('static/fonts/poppins/font_regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'finno', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*  Custom loader starts */
+
+.bViQzk {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 0 2px;
+  display: inline-block;
+  -webkit-animation: ghjfcd 1.4s infinite ease-in-out both;
+  animation: ghjfcd 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.bLLmrZ {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 0 2px;
+  display: inline-block;
+  -webkit-animation: ghjfcd 1.4s infinite ease-in-out both;
+  animation: ghjfcd 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+
+.ebGjrP {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 0 2px;
+  display: inline-block;
+  -webkit-animation: ghjfcd 1.4s infinite ease-in-out both;
+  animation: ghjfcd 1.4s infinite ease-in-out both;
+}
+
+/* sc-component-id: sc-keyframes-ghjfcd */
+@-webkit-keyframes ghjfcd {0%,
+  80%,
+  100% {-webkit-transform: scale(0);-ms-transform: scale(0);transform: scale(0);}40% {-webkit-transform: scale(1.0);-ms-transform: scale(1.0);transform: scale(1.0);}}
+  @keyframes ghjfcd {0%,
+  80%,
+  100% {-webkit-transform: scale(0);-ms-transform: scale(0);transform: scale(0);}40% {-webkit-transform: scale(1.0);-ms-transform: scale(1.0);transform: scale(1.0);}}
+
+
+/*    Custom loader ends  */
+
+/*   Autofill background removing start */
+
+@keyframes autofill {
+  0%,100% {
+      background: transparent;
+  }
+}
+
+input:-webkit-autofill {
+  animation-delay: 1s; /* Safari support - any positive time runs instantly */
+  animation-name: autofill;
+  animation-fill-mode: both;
+}
+
+/* Autofill background removing end */
+
+
+/* Buttons style start */
+
+
+.primary-button {
+  width: 48%;
+  max-width: 300px;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 16px;
+  border-width: 2px;
+  border-style: solid;
+  /* font-family: 'fontsemibold'; */
+}
+
+.error-button  {
+  width: 48%;
+  max-width: 300px;
+  border-radius: 6px;
+  margin-right: 4%;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  /* font-family: 'fontsemibold'; */
+}
+
+.full-primary-button{
+  width: 28%;
+  max-width: 300px;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 14px;
+  border-width: 2px;
+  border-style: solid;
+  /* font-family: 'fontsemibold'; */
+}
+
+.full-error-button {
+  width: 48%;
+  max-width: 300px;
+  margin-right: 4%;
+  font-weight: 600;
+  padding: 10px;
+  color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+  /* font-family: 'fontsemibold'; */
+}
+
+.topBarStyle {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 50px;
+  box-shadow: 0 5px 5px -6px black;
+  z-index:3;
+}
+/* Footer style */
+
+.footerStyle {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+}
+
+@media screen and (min-height: 680px) {
+  .footerStyle{
+    position: fixed;
+    bottom: 0px;
+  }
+}
+
+.frame_style{
+  width:100%;
+  height:100%;
+}
+
+.headerLogoStyle{
+  position:absolute;
+  left:50%;
+  margin-left: -50px;
+}
+
+
+.home-field-title{
+  display:inline-block;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  padding-right:30px;
+  padding-top: 5px;
+  vertical-align: top;
+}
+
+
+@media screen and (max-width: 600px) {
+  .full-primary-button {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    max-width: 100%;
+    /* font-family: 'fontsemibold'; */
+  }
+  .home-field-title{
+    display: none;
+  }
+  .full-error-button {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    max-width: 100%;
+    /* font-family: 'fontsemibold'; */
+  }
+  .bottomDiv{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    padding: 20px;
+  }
+
+  .popup_inner {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 60px;
+    bottom: 20px;
+  }
+
+  .headerLogoStyle{
+    position: absolute;
+    left: 0%;
+    margin-left: 20px;
+  }
+}
+
+/* Buttons style end */
+
+.centerContent {
+  padding-top: 70px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.normalCard {
+  border: 0px solid #faf8f8;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.actionCard {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+
+  padding: 19px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.pdfHome {
+  width: 100%;
+  margin: 0 auto;
+  position:relative;
+}
+
+
+.cardTitle {
+  color: #333333;
+  font-size: 19px;
+  font-weight: 500;
+  /* font-family: 'fontmedium'; */
+}
+
+.cardActionTitle {
+  color: #191919;
+  font-size: 21px;
+  font-weight: normal;
+  /* font-family: 'fontsemibold'; */
+}
+
+.cardMsg {
+  color: #6b6f86;
+  font-size: 14px;
+  font-weight: 500;
+  /* font-family: 'fontmedium'; */
+}
+
+.cardActionMsg  {
+  color: #6b6f86;
+  font-size: 12px;
+  font-weight: 600;
+  /* font-family: 'fontsemibold'; */
+}
+
+.actionInputStyle {
+
+  display: block;
+    width: 100%;
+    padding-left: 10px;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+
+  background-color: #ffffff;
+  font-size: 12px;
+  border-radius: 4px;
+  height: 30px;
+  line-height: 3.5;
+  /* color: #9da1b9; */
+  color: #797e96;
+  border: 1.2px solid #d3d8de;
+  font-weight: 600;
+  /* font-family: 'fontsemibold'; */
+}
+
+.inputStyle {
+  font-size: 14px;
+  background: none;
+  border: none;
+  width: 100%;
+  box-shadow: none;
+  padding-right:30px;
+  outline: none;
+  color:#22202e;
+  /* font-family: 'fontmedium'; */
+  appearance: none;
+}
+
+.inputStyleDisabled{
+  font-size: 14px;
+  background: none;
+  border: none;
+  width: 100%;
+  box-shadow: none;
+  padding-right:30px;
+  outline: none;
+  color:#22202e;
+  font-weight: 500;
+  /* font-family: 'fontmedium'; */
+  appearance: none;
+  pointer-events: none;
+}
+
+.optionStyle{
+  margin:20px;
+  padding:20px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.inputStyleDiv {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1.2px solid #d3d8de;
+  position: relative;
+  /* font-family: 'fontmedium'; */
+}
+
+.inputStyleDivErr {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  border:1.2px solid #de0808;
+  /* font-family: 'fontmedium'; */
+}
+
+.homeTextFieldTitle 
+{color:#6b6f86;
+margin-left:10px;font-size:12px;
+vertical-align:middle;
+ font-weight: 500;
+ /* font-family: 'montserratmedium'; */
+}
+
+.homeTextFieldTitleErr 
+{color:#de0808;
+margin-left:10px;font-size:12px;
+vertical-align:middle;
+ font-weight: 500;
+ /* font-family: 'fontmedium'; */
+}
+
+.infoTextStyle {
+  font-size: 12px;
+  margin: 0;
+  color: #6b6f86;
+  font-weight: normal;
+  /* font-family: 'fontmedium'; */
+  line-height: 1.5;
+}
+
+.infoTitleStyle  {
+  font-size: 12px;
+  margin: 0;
+  /* color: var(--info-title-text-color); */
+  font-weight: 600;
+  line-height: 1.5;
+  /* font-family: 'fontsemibold'; */
+}
+
+.float-right-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2; /*this will keep the icon appearing all time, even when on input::focus*/
+}
+
+.float-right-eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  z-index: 2; /*this will keep the icon appearing all time, even when on input::focus*/
+}
+
+
+.otpTimeLeftStyle {
+  color: #6b6f86;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  font-weight: 500;
+  /* font-family: 'fontmedium'; */
+  padding-top: 10px;
+}
+
+.errorMsgStyle {
+  color: #de0808;
+  font-size: 12px;
+  /* font-family: 'fontmedium'; */
+}
+
+.termsStyle {
+  font-size: 12px;
+  color: #6b6f86;
+  font-weight: normal;
+  /* font-family: 'fontmedium'; */
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.tcStyle{
+  font-size: 14px;
+  color: rgb(33, 33, 199);
+  font-weight: normal;
+  /* font-family: 'fontmedium'; */
+  vertical-align: middle;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+.homeDropdownIcon {
+  width: 16px;
+  height: auto;
+  pointer-events: none;
+}
+
+.checkboxStyle{
+  margin:0;
+}
+
+.respImgStyle {
+  width: auto;
+  height: 73px;
+  margin-bottom: 30px;
+}
+
+.homeLockIconDiv {
+  padding: 4px;
+  display: inline-block;
+  background-color:#f5f5fa
+}
+
+.homeLockIcon {
+  padding-right: 1px;
+  width: 23px;
+  height: auto;
+  color: #797e96
+}
+
+.homeIcon {
+  width: 24px;
+  height: auto;
+}
+  
+  .homeInfo { 
+    border-left: 0.5px solid #c8d0ef;
+    padding: 10px;
+    text-align: justify;
+    display: inline-block;
+  }
+
+  .cancelStyle{
+    position:absolute;
+    right:0%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  table{
+    padding: 10px;
+    width: 300px;
+    margin:auto;
+  }
+
+  td{
+    padding:5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .start-demo{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  table, tr, td{
+    border:2px solid #f5f5f5;
+  }
